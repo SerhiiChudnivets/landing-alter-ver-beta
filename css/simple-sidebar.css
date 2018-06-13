@@ -204,7 +204,9 @@ body {
   padding-right: 25px !important;
   border-radius: 10px 10px 0px 0px;
 }
-
+.brt-10{
+  border-radius: 10px 10px 0px 0px;
+}
 .brb-10 {
   border-radius: 0px 0px 10px 10px;
 }
@@ -240,4 +242,10 @@ body {
     display: flex;
     justify-content: center !important;
   }  
+}
+.bg-telegram{
+  background-image: url(../img/blok2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 43px;
 }
