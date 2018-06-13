@@ -134,11 +134,7 @@ body {
   }
 }
 
-@media(min-width:320px)and (max-width:767px) {
-  #buttons {
-    flex-direction: column;
-  }
-}
+
 
 .bg-custom {
   padding-top: 15px;
@@ -225,4 +221,23 @@ body {
 #contact {
   margin-left: 0px;
   margin-right: 0px;
+}
+@media(min-width:320px)and (max-width:767px) {
+  #buttons {
+    flex-direction: column;
+  }
+  #call{
+    font-size:17px;
+    margin-right: 0px !important;
+  }
+  #logo{ display: flex;
+  justify-content: center;
+  }
+  #logo-prozorro{ display: flex;
+    justify-content: center;
+    }
+  #contact-face{
+    display: flex;
+    justify-content: center !important;
+  }  
 }
